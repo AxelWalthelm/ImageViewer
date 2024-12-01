@@ -1,10 +1,11 @@
 # ImageViewer
 
 OpenCV for Python under Windows can not zoom into images displayed with cv2.imshow().
-Here is a Python module to display images that you can zoom in via mouse.
+Here is a Python module to display images that you can zoom into via mouse.
 It also allows to do windowing, i.e. re-mapping of brightness values to a smaller or wider range.
 Windowing is especially useful with images where the channels have more than 8 bit resolution,
-but it can also be used to threshold the viewed image.
+but it can also be used to threshold the viewed image and measure intensities.
+It should work with most image types that OpenCV supports, but some may be slower than others.
 
 ## Usage
 
